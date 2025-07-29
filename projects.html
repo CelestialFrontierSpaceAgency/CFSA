@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CFSA</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="stars-canvas"></canvas>
+  
+  <button class="sidebar-toggle" aria-label="Toggle menu" 
+    onclick="document.body.classList.toggle('menu-open')">☰</button>
+
+<div class="top-buttons">
+  <a href="projects.html" class="top-button">Projects</a>
+  <a href="community.html" class="top-button">Community</a>
+</div>
+
+
+
+
+  <nav class="sidebar-menu" aria-label="Sidebar menu">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="community.html">Community</a>
+  
+  </nav>
+
+  <div class="wrapper">
+    <main class="container">
+      <header class="site-header">
+      <img src="images/logo.png" alt="CFSA Logo" class="site-logo">
+      </header>
+        
+      
+        <section class="project-sections">
+  <a href="projects_section/cs-e/cs-e.html" class="project-card">
+    <img src="images/projects/cs&e.png" alt="Control Systems" />
+    <div class="project-label">Control Systems & Electronics</div>
+  </a>
+
+  <a href="projects_section/e-ps/e-ps.html" class="project-card">
+    <img src="images/projects/e&ps.jpg" alt="Energy & Power" />
+    <div class="project-label">Energy & Power Systems</div>
+  </a>
+
+  <a href="projects_section/experiments/experiments.html" class="project-card">
+    <img src="images/projects/experiments.png" alt="Experiments" />
+    <div class="project-label">Experiments</div>
+  </a>
+
+  <a href="projects_section/radio/radio.html" class="project-card">
+    <img src="images/projects/radiotelescope.png" alt="Radio Tech" />
+    <div class="project-label">Radio Technologies</div>
+  </a>
+
+  <a href="projects_section/spacecraft/spacecraft.html" class="project-card">
+    <img src="images/projects/spacecraft.png" alt="Spacecraft" />
+    <div class="project-label">Spacecraft</div>
+  </a>
+</section>
+
+    
+</main>
+
+<script src="script.js" defer></script>
+</div>
+</body>
+</html>
